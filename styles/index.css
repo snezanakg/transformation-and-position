@@ -71,6 +71,7 @@ cursor: pointer;
 width: 100%;
 }
 .section-one{
+  display: flex;
 max-width:1400px;
 background-color: #FFF;
 flex-shrink: 0;
@@ -136,7 +137,7 @@ fill: #FFE5D2;
 width: 100%;
 }
 .section-two{
-display: inline-flex;
+display: flex;
 padding: 38px 347.626px 102.597px 359.023px;
 flex-direction: column;
 align-items: center;
@@ -284,6 +285,7 @@ border-radius: 4px;
  width: 100%;
 }
 .section-three{
+  display: flex;
 max-width: 1110px;
 min-height: 574px;
 flex-shrink: 0;
@@ -373,6 +375,7 @@ flex-shrink: 0;
 fill: #000;
 }
 .section-four{
+  display: flex;
 max-width: 1400px;
 background: #FFF;
    
