@@ -1,23 +1,26 @@
 .body{
 background-color:#FFF;
 max-width: 1400px;
-height: 3843px;
+min-height: 3843px;
 margin: 0 auto;
+width: 100%;
 }
-.navigation{
+.navbar{
+display: flex;
 max-width: 1400px;
-height: 78px;
+min-height: 78px;
 flex-shrink: 0;
 background-color: #FFF;
 align-items: center;
 padding-top: 20px;
 justify-content: space-between;
+width: 100%;
 } 
-.logoname{
+.logo{
 max-width: 143.117px;
-height: 28.973px;
+min-height: 28.973px;
 margin-left: 30px;
-margin: top 25px;
+ margin-top:  25px;
 float: left;
 flex-shrink: 0;
 fill: #173A56;
@@ -25,17 +28,10 @@ stroke-width: 1px;
 stroke: #000;
 display: flex;
 align-items: center;
+width: 100%;
 }
-.logoimage{
-max-width: 31.168px;
-height: 32px;
-flex-shrink: 0;
-margin-left: 30px;
-margin-top: 25px;
-margin-bottom: 3769px;
-background-color: lightgray 0px 0px / 100% 100% no-repeat;
-}
-.navigationlinks{
+
+.nav-links{
 max-width: 350px;
 line-height: 28px;
 margin-right: 30px;
@@ -48,9 +44,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 200% */
 }
-.sign-in button{
+.signin-btn{
 max-width: 100px;
-height: 40px;
+min-height: 40px;
 background-color: #173A56;
 border-radius: 5px;
 border: none;
@@ -66,10 +62,11 @@ margin-top: 25px;
 margin-bottom: 3769px;
 flex-shrink: 0;
 cursor: pointer;
+width: 100%;
 }
-.sign-up button{
+.signup-btn{
 max-width: 100px;
-height: 40px;
+min-height: 40px;
 background-color: #FFF;
 border-radius: 5px;
 border: 1px solid #173A56;
@@ -85,10 +82,11 @@ margin-top: 25px;
 margin-bottom: 3769px;
 flex-shrink: 0;
 cursor: pointer;
+width: 100%;
 }
-.header{
+.section-one{
 max-width:1400px;
-height: 3843px;
+min-height: 3843px;
 background-color: #FFF;
 flex-shrink: 0;
 margin-top: 25px;
@@ -97,10 +95,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+width: 100%;
 }
-.main title{
+.main-title{
 max-width: 518px;
-height: 108px;
+min-height: 108px;
 color: #2F281E;
 font-family: Poppins;
 font-size: 44px;
@@ -108,10 +107,11 @@ font-style: normal;
 font-weight: 700;
 line-height: 54px;
 text-align: center;
+width: 100%;
 }
-.maintext{
+.main-info{
 max-width: 458px;
-height: 95px;
+min-height: 95px;
 flex-shrink: 0;
 color: #544837;
 font-family: Poppins;
@@ -119,37 +119,40 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 155.556% */
+width: 100%;
 }
-.main button{
- width: 175px;
-height: 53px;
+.main-button{
+ max-width: 175px;
+min-height: 53px;
 flex-shrink: 0;
 background-color:#F90;
 border-radius: 4px;
-border:none
+border:none;
+width: 100%;
+
 }
-.playbutton{
+.play-btn{
 color: #F90;
-font-family: Poppins;
+font-family: awesome;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-decoration-line: underline;
-}
-.playimage{
 max-width: 20px;
-height: 17px;
+min-height: 17px;
 transform: rotate(90deg);
 fill: #F90;
+width: 100%;
 }
-.image1{
+.main-img{
 max-width: 467px;
-height: 438px;
+min-height: 438px;
 flex-shrink: 0;
 fill: #FFE5D2;
+width: 100%;
 }
-.feature{
+.section-two{
 display: inline-flex;
 padding: 38px 347.626px 102.597px 359.023px;
 flex-direction: column;
@@ -164,27 +167,29 @@ color: #F03E3D;
 color: #FAB005;
 color: #FF9900;
 }
-.subtitle{
+.sub-title{
 max-width: 341.294px;
-height: 108px;
+min-height: 108px;
 color: #2F281E;
 text-align: center;
 font-family: Poppins;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
+width: 100%;
 line-height: normal;
 }
-.icon{
+.icon1{
 max-width: 31.66px;
-height: 56.998px;
+min-height: 56.998px;
 flex-shrink: 0;
 border-radius: 19px;
 background-color:  #7752BE;
+width: 100%;
 }
-.icon title{
+.icon1 title{
 max-width: 103.844px;
-height: 33px;
+min-height: 33px;
 flex-shrink: 0;
 color: #2F281E;
 font-family: Poppins;
@@ -192,10 +197,11 @@ font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+width: 100%;
 }
-.icon text{
+.icon1 text{
 max-width: 151.967px;
-height: 59.278px;
+min-height: 59.278px;
 flex-shrink: 0;
 color: #544837;
 font-family: Poppins;
@@ -203,16 +209,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
+width: 100%;
 }
 .icon2{
  max-width: 31.66px;
-height: 56.998px;
+min-height: 56.998px;
 flex-shrink: 0;
 background-color: #FAB005;
+width: 100%;
 }
 .icon2 title{
-width: 107.644px;
-height: 33px;
+max-width: 107.644px;
+min-height: 33px;
 flex-shrink: 0;
 color: #2F281E;
 font-family: Poppins;
@@ -220,10 +228,11 @@ font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+width: 100%;
 }
 .icon2 text{
 max-width: 151.967px;
-height: 59.278px;
+min-height: 59.278px;
 flex-shrink: 0;
 color: #544837;
 font-family: Poppins;
@@ -231,16 +240,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
+width: 100%;
 }
 .icon3{
 max-width: 31.66px;
-height: 56.998px;
+min-height: 56.998px;
 flex-shrink: 0;
 background-color: #F03E3D;
+width: 100%;
 }
 .icon3 title{
 max-width: 114.609px;
-height: 33px;
+min-height: 33px;
 flex-shrink: 0;
 color: #2F281E;
 font-family: Poppins;
@@ -248,10 +259,11 @@ font-size: 22px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+width: 100%;
 }
 .icon3 text{
  max-width: 151.967px;
-height: 59.278px;
+min-height: 59.278px;
 flex-shrink: 0;  
 color: #544837;
 font-family: Poppins;
@@ -259,12 +271,14 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
+width: 100%;
 }
 .icon4{
 max-width: 31.66px;
-height: 56.998px;
+min-height: 56.998px;
 flex-shrink: 0;
 background-color: #4DADF7;
+width: 100%;
 }
 .icon4 title{
 color: #2F281E;
@@ -274,22 +288,24 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.singupnowbutton{
+.singup-now{
 max-width: 110.81px;
-height: 60.418px;
+min-height: 60.418px;
 border-radius: 4px;
  background: #F90;
+ width: 100%;
 }
-.effortless-validation{
+.section-three{
 max-width: 1110px;
-height: 574px;
+min-height: 574px;
 flex-shrink: 0;
 margin-top: 1397px;
 margin-bottom: 1872px;
 margin-left: 145px;
 margin-right: 145px;
+width: 100%;
   }
-.effortless-validation text{
+.text{
 color: #544837;
 font-family: Poppins;
 font-size: 16px;
@@ -297,7 +313,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.title{
+.section-heading{
 color: #2F281E;
 font-family: Poppins;
 font-size: 36px;
@@ -305,7 +321,25 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.title text{
+.section-para{
+max-width: 486px;
+color: #544837;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+width:100%;
+}
+.section-sub-heading{
+color: #2F281E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
+.section-para{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -314,7 +348,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.subtitle3{
+.section-sub-heading{
 color: #2F281E;
 font-family: Poppins;
 font-size: 16px;
@@ -322,7 +356,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
-.text3{
+.section-para{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -331,7 +365,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.subtitle2{
+.section-sub-heading{
 color: #2F281E;
 font-family: Poppins;
 font-size: 16px;
@@ -339,24 +373,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
-.text2{
-max-width: 486px;
-color: #544837;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-}
-.subtitile1{
-color: #2F281E;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 26px; /* 162.5% */
-}
-.text1{
+.section-para{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -371,17 +388,18 @@ height: 573.31px;
 flex-shrink: 0;
 fill: #000;
 }
-.productmenagers{
+.section-four{
 max-width: 1400px;
 height: 3843px;
 background: #FFF;
    
 }
-image{
-max-width: 532.615px;
-height: 520.035px;
+.sub-setion-img{
+max-width: 533px;
+min-height: 521px;
 flex-shrink: 0; 
 fill: #000;
+width: 100%;
 }
 .text{
 color: #544837;
@@ -391,7 +409,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.title{
+.section-heading{
 color: #2F281E;
 font-family: Poppins;
 font-size: 36px;
@@ -399,7 +417,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.title text{
+.section-para{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -408,14 +426,15 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.itembutton{
+.bulletpoint1{
 max-width: 35px;
-height: 35px;
+min-height: 35px;
 flex-shrink: 0;
 color: #FFFFFF;
 color: #FF9900;
+width: 100%;
 }
-.itemtext1{
+.description1{
 max-width: 365px;
 flex-shrink: 0;
 color: #544837;
@@ -425,7 +444,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.itemtext2{
+.bulletpoint2{
 max-width: 385px;
 color: #544837;
 font-family: Poppins;
@@ -434,7 +453,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.itemtext3{
+.description2{
 color: #544837;
 font-family: Poppins;
 font-size: 16px;
@@ -442,12 +461,12 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.marketers{
+.bulletpoint3{
 max-width: 1110px;
-height: 609px;
+min-height: 609px;
 flex-shrink: 0;
 }
-.text{
+.description3{
 color: #544837;
 font-family: Poppins;
 font-size: 16px;
@@ -455,7 +474,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.title{
+.text{
 color: #2F281E;
 font-family: Poppins;
 font-size: 36px;
@@ -463,7 +482,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.title text{
+.section-heading{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -472,7 +491,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.subtitile1{
+.section-para{
 color: #2F281E;
 font-family: Poppins;
 font-size: 16px;
@@ -480,7 +499,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
-.subtitle1text{
+.section-sub-heading{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -489,7 +508,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.subtitle2{
+.section-para{
 color: #2F281E;
 font-family: Poppins;
 font-size: 16px;
@@ -497,7 +516,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
-.subtitle2text{
+.section-sub-heading{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -506,7 +525,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.subtitle3{
+.section-para{
 color: #2F281E;
 font-family: Poppins;
 font-size: 16px;
@@ -514,7 +533,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
-.subtitletle3text{
+.section-sub-heading{
 max-width: 486px;
 color: #544837;
 font-family: Poppins;
@@ -523,36 +542,38 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
-.image{
+.sub-section-img{
 max-width: 542px;
-height: 609px;
+min-height: 609px;
 flex-shrink: 0;
 margin-left: 715px;
 margin: right 143px; 
 margin: top 2697px;
 margin-bottom:537px ;
+width: 100%;
 }
 .footer{
 max-width: 1109px;
-height: 308px;
+min-height: 308px;
 flex-shrink: 0;
+width: 100%;
 }
 .logo{
 max-width: 31px;
-height: 32px;
+min-height: 32px;
 flex-shrink: 0;
 background: lightgray 0px 0px / 100% 100% no-repeat;
-}
-.logoname{
+width: 100%;
 max-width: 142.348px;
-height: 28.973px;
+min-height: 28.973px;
 flex-shrink: 0;
 margin-left: 210px;
 margin-bottom: 256.03px;
 margin-top: 3558px;
 fill: #173A56;
+width: 100%;
 }
-.quicklinks{
+.quick-links{
 color: #544837;
 font-family: Poppins;
 font-size: 16px;
@@ -560,7 +581,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 35px; /* 218.75% */
 }
-.legalstuff{
+.legal-stuff{
 color: #544837;
 font-family: Poppins;
 font-size: 16px;
@@ -569,15 +590,16 @@ font-weight: 400;
 line-height: 35px; /* 218.75% */
 }
 
-.link{
+.links{
 max-width: 280px;
-height: 57px;
+min-height: 57px;
 flex-shrink: 0;
 color: #2F281E;
 font-family: Aladin;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
+width: 100%;
 line-height: 30px; /* 150% */   
 }
 .rectangle5copy{
@@ -590,8 +612,9 @@ line-height: 35px; /* 218.75% */
 }
 .rectanglebutton{
 max-width: 131px;
-height: 39px;
+min-height: 39px;
 flex-shrink: 0;  
 border-radius: 4px;
 background: #F90; 
+width: 100%;
 }
