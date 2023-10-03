@@ -164,6 +164,7 @@ width: 100%;
 line-height: normal;
 }
 .icon1{
+  display: flex;
 max-width: 32px;
 min-height: 57px;
 flex-shrink: 0;
@@ -196,6 +197,7 @@ line-height: 26px; /* 162.5% */
 width: 100%;
 }
 .icon2{
+  display: flex;
  max-width: 32px;
 min-height: 57px;
 flex-shrink: 0;
@@ -227,6 +229,7 @@ line-height: 26px; /* 162.5% */
 width: 100%;
 }
 .icon3{
+  display: flex;
 max-width: 32px;
 min-height: 57px;
 flex-shrink: 0;
@@ -258,6 +261,7 @@ line-height: 26px; /* 162.5% */
 width: 100%;
 }
 .icon4{
+  display: flex;
 max-width: 32px;
 min-height: 57px;
 flex-shrink: 0;
