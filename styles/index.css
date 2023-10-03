@@ -462,8 +462,8 @@ font-weight: 500;
 line-height: 26px; /* 162.5% */
 }
 .bulletpoint3{
-max-width: 1110px;
-min-height: 609px;
+max-width: 35px;
+min-height: 35px;
 flex-shrink: 0;
 }
 .description3{
